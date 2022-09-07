@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Contact from "./components/contact/contact";
+import About from "./components/about/about";
+import Projects from "./components/projects/projects";
+import Navbar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
+import Typewriters from "./components/typewriter/typewriters";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <React.StrictMode>
+        <Navbar />
+        <div className="section--1">
+          <Typewriters />
+          <div className="b tc">
+            <p>
+              Frontend Developer<br></br>Amsterdam Area
+            </p>
+          </div>
+          <About />
+        </div>
+        <Projects />
+        <Contact />
+        <Footer />
+      </React.StrictMode>
     </div>
   );
-}
+};
 
 export default App;
