@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jrleijnse/portfolio-website/n/static/css/main.aab63dbf.css",
+    "main.js": "/jrleijnse/portfolio-website/n/static/js/main.3f7b070a.js",
+    "index.html": "/jrleijnse/portfolio-website/n/index.html",
+    "main.aab63dbf.css.map": "/jrleijnse/portfolio-website/n/static/css/main.aab63dbf.css.map",
+    "main.3f7b070a.js.map": "/jrleijnse/portfolio-website/n/static/js/main.3f7b070a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aab63dbf.css",
+    "static/js/main.3f7b070a.js"
+  ]
+}
